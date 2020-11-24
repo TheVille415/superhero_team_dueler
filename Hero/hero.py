@@ -48,7 +48,6 @@ class Hero:
         '''Calculate the total block amount from all armor blocks.
             return: total_block:Int
         '''
-        # TODO: This method should run the block method on each armor in self.armors
         total_block = 0
         for armor in self.armors:
             total_block += armor.block()
@@ -164,10 +163,10 @@ class Hero:
 #     hero2.add_ability(ability4)
 #     hero1.fight(hero2)
 
-if __name__ == "__main__":
-    # If you run this file from the terminal
-    # this block is executed.
-    hero = Hero("Wonder Woman")
-    weapon = Weapon("Lasso of Truth", 90)
-    hero.add_weapon(weapon)
-    print(hero.attack())
+# if __name__ == "__main__":
+#     # If you run this file from the terminal
+#     # this block is executed.
+#     hero = Hero("Wonder Woman")
+#     weapon = Weapon("Lasso of Truth", 90)
+#     hero.add_weapon(weapon)
+#     print(hero.attack())
